@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+
+  <main>
+    <!-- Rating state start -->
+    <section class="Rating-Form">
+
+      <span>
+        <img id="icon" src="images/icon-star.svg" alt="star">
+      </span>
+
+      <p id="p-1"> How did we do? </p>
+
+      <p id="p-2"> Please let us know how we did with your support request. All feedback is appreciated to help us
+        improve our offering!</p>
+
+      <div class="stars">
+        <button class="button" id="btn-1">1</button>
+        <button class="button" id="btn-2">2</button>
+        <button class="button" id="btn-3">3</button>
+        <button class="button" id="btn-4">4</button>
+        <button class="button" id="btn-5">5</button>
+      </div>
+
+      <input onclick="showOne()" type="submit" value="SUBMIT">
+    </section>
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <section class="Thankyou-Form">
+
+      <img src="images/illustration-thank-you.svg" alt="thanks">
+
+      <p id="p-1"> You selected <span id="selected-rate">0</span> out of 5</p>
+
+      <p id="p-0"> Thank you!</p>
+
+      <p id="p"> We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+      <input onclick="showTwo()" type="submit" value="RATE AGAIN">
+    </section>
+    <!-- Thank you state end -->
+  </main>
+
+  <footer class="attribution">
+    <p>
+      Challenge by <a style="text-decoration: none;" href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank">Frontend Mentor</a>.
+    </p>
+    <p>
+      Coded by <a style="text-decoration: none;" href="https://github.com/basanta-roka"
+        target="_blank">Basanta-Roka</a>.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
