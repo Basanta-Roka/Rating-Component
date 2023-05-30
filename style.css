@@ -52,7 +52,7 @@ main .Thankyou-Form img {
     margin-bottom: 1.5rem;
 }
 
-main .Thankyou-Form #p-1 {
+main .Thankyou-Form #p1 {
     background-color: var(--Medium-Grey);
     color: var(--Orange);
     font-size: 0.8rem;
